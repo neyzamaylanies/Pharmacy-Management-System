@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 # Custom Nginx Dockerfile
 FROM nginx
 COPY ./default.conf /etc/nginx/conf.d/default.conf
 # Expose port 80
 EXPOSE 80
 # Command untuk menjalankan nginx
+=======
+# Custom Nginx Dockerfile
+FROM nginx
+COPY ./default.conf /etc/nginx/conf.d/default.conf
+# Expose port 80
+EXPOSE 80
+# Command untuk menjalankan nginx
+>>>>>>> 578dd5cfbedb8cc02266371e2bf8e8ee8d5b297f
 CMD ["nginx", "-g", "daemon off;"]
